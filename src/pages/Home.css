@@ -1,0 +1,70 @@
+.container {
+    width: 100%;
+    max-width: 1510px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0 30px;
+    background: #e9a1a1;
+}
+
+nav{
+    width: 100%;
+    max-width: 1540px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background: #d11414;
+}
+
+.loading{
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 300px 600px;
+}
+
+.logo{
+    font-family: Kalnia;
+    font-size: x-large;
+    color: #fff;
+}
+
+.nav__ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.nav__link > svg{
+    color: #fff;
+}
+
+.products__wp{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.product__card{
+    width: 300px;
+    height: 300px;
+    background: #d11414;
+    border-radius: 30px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.product__card > img{
+    border-radius: 10px;
+}
